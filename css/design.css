@@ -1,0 +1,210 @@
+/* Start Global */
+.body {
+  font-family: 'Cairo', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* End Global */
+
+/* Start Heading  */
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.heading .container h3 {
+  margin: auto;
+  text-align: center;
+  width: fit-content;
+  padding: 15px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 30px;
+}
+
+.heading .container h3 > span {
+  font-size: 40px;
+  color: #d11a1f;
+}
+/* End Heading  */
+
+/* Start Backgound */
+.back-ground img {
+  width: 100%;
+}
+/* End Backgound */
+
+/* Start Products */
+.products {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #eee;
+}
+
+.products .big-box .box img {
+  width: 90%;
+}
+
+
+.products .big-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.products .big-box .box {
+  border-bottom: 2px solid #ddd;
+}
+
+.products .big-box .box p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.products .big-box .box span {
+  color: brown;
+  transition: 0.3s;
+}
+
+.products .big-box .box span:hover {
+  font-size: 30px;
+}
+/* End Products */
+
+/* Start Gaming */
+.headphone {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #eee;
+}
+
+.headphone .big-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.headphone .big-box .box img {
+  width: 90%;
+}
+
+.headphone .big-box .box {
+  border-bottom: 2px solid #ddd;
+}
+
+.headphone .big-box .box p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.headphone .big-box .box span {
+  color: brown;
+  transition: 0.3s;
+}
+
+.headphone .big-box .box span:hover {
+  font-size: 30px;
+}
+/* End Gaming */
+
+/* Start Cat headphone */
+.cat-headphone {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #eee;
+}
+
+.cat-headphone .big-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.cat-headphone .big-box .box {
+  border-bottom: 2px solid #ddd;
+}
+
+.cat-headphone .big-box .box img {
+  width: 80%;
+}
+
+.cat-headphone .big-box .box p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.cat-headphone .big-box .box p span {
+  color: brown;
+  transition: 0.3s;
+}
+/* End Cat headphone */
+
+/* Start Powerbank */
+.powerbank {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #eee;
+}
+
+.powerbank .big-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.powerbank .big-box .box {
+  border-bottom: 2px solid #ddd;
+}
+
+.powerbank .big-box .box img {
+  width: 80%;
+}
+
+.powerbank .big-box .box p {
+  font-size: 25px;
+  padding-top: 10px;
+}
+/* End Powerbank */
+
+
+/* Start Contact */
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .part1 h4 svg {
+  color: brown;
+  text-align: center;
+}
+
+.contact .part3 {
+  text-align: center;
+}
+
+.contact .part3 > svg {
+  font-size: 150px;
+}
+
+/* End Contact */
